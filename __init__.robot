@@ -1,6 +1,6 @@
 *** Settings ***
-Test Setup        Custom Setup
-Test Teardown     Custom Teardown
+Suite Setup        Custom Setup
+Suite Teardown     Custom Teardown
 Library           OperatingSystem
 
 *** Keywords ***
